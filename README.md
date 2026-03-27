@@ -54,11 +54,14 @@ fitness-microservices/
 
 ---
 
+
+---
+
 ## ⚙️ Setup & Installation
 
 ### 1. Clone the repository
 
-```bash
+bash
 git clone https://github.com/mohdaltaf145/AI-Fitness-App.git
 cd AI-Fitness-App
 
@@ -70,27 +73,26 @@ Java 17+
 Node.js
 Docker (optional but recommended)
 Kafka & Zookeeper
+
 3. Run services in order
 Start Eureka Server
 Start API Gateway
 Start all microservices
 Start Kafka & Zookeeper
 Start React frontend
+
 4. Access the app
 Frontend → http://localhost:3000
 API Gateway → http://localhost:8080
 Eureka Dashboard → http://localhost:8761
 🔐 Authentication
 Uses Keycloak for OAuth2-based authentication
-Configure realm, client, and users in Keycloak before running
+Configure the realm, client, and users in Keycloak before running
 🤖 AI Recommendation Engine
 Integrated with Gemini AI to:
 Analyze user activity
 Suggest workouts
 Provide personalized fitness insights
-📸 Screenshots
-
-Add screenshots here
 
 🧪 Future Improvements
 📱 Mobile app integration
@@ -110,11 +112,4 @@ Altaf Mazhar
 Backend Developer | Fitness Enthusiast
 
 
----
 
-### ⚠️ Important:
-- Paste this in **README.md file**, not terminal  
-- Make sure file extension is `.md.`  
-- Commit & push again
-
-If you want, I can make it **more premium (with badges + diagrams)** for your resume 🔥
